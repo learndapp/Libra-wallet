@@ -1,0 +1,29 @@
+{
+  "name": "libra-wallet",
+  "version": "1.0.0",
+  "description": "Fackbook Libra blockchain wallet",
+  "main": "app.js",
+  "scripts": {
+    "start": "ADDR=localhost:55383 node app.js",
+    "start-testnet": "ADDR=ac.testnet.libra.org:80 node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learndapp/Libra-wallet.git"
+  },
+  "author": "jim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/learndapp/Libra-wallet/issues"
+  },
+  "homepage": "https://github.com/learndapp/Libra-wallet#readme",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "libra-grpc": "0.0.3",
+    "libra-weight": "0.0.2",
+    "lodash": "^4.17.11"
+  }
+}
