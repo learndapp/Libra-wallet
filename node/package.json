@@ -24,6 +24,6 @@
     "koa-router": "^7.4.0",
     "libra-grpc": "0.0.3",
     "libra-weight": "0.0.2",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.13"
   }
 }
